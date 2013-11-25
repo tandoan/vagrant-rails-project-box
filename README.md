@@ -1,3 +1,10 @@
-vagrant-rails-project-box
-=========================
-from http://blog.base2.io/2012/05/01/vagrants-and-chefs-and-librarians-oh-my
+Vagrant Rails Node.js App Starter
+==========================
+
+Edit the Vagrant file
+
+$ vagrant plugin install vagrant-librarian-chef
+$ cd vagrant
+$ vagrant up
+$ vagrant ssh
+$ cd ~;rails new proj-name
